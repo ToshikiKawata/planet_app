@@ -153,6 +153,10 @@ return [
     |
     */
 
-    'attributes' => [],
-
+    'attributes' => [
+        'name' => '名前',
+        'english' => '名前(英語)',
+        'radius' => '半径',
+        'weight' => '重量',
+    ],
 ];
