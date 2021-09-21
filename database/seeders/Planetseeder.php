@@ -14,14 +14,13 @@ class Planetseeder extends Seeder
      */
     public function run()
     {
-        DB::table('planets')->insert([
+        $param = [
+            [
             'name' => '水星',
             'english' => 'MERCURY',
             'radius' => 2439,
             'weight' => 3310,
-        ]);
-        # paramに配列を代入
-        $param = [
+            ],
             [
                 'name' => '金星',
                 'english' => 'VENUS',
